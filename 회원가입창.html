@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+      <style>
+        body {margin : 0px}
+        form {
+          border: 3px;
+          border-style: double;
+          border-color: darkgray;
+          background-color: lightblue;
+          padding-bottom: 1mm;
+          padding-top: 1mm;
+          font-family: "나눔스퀘어 Bold";
+          text-align: center
+        }
+      .성별 {
+        font-size: 12px;
+        font-weight: lighter;
+        color: #555555;
+        text-align: center
+      }
+      .테두리 {
+        border-style: double;
+        border-color: mintcream;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      </style>
+
+<body>
+  <form>
+    <strong>회원가입</strong> <br/>
+    <br>
+    아이디 <br>
+    <input type="text" class="테두리"> <br>
+    비밀번호 <br>
+    <input type="password"class="테두리"> <br>
+    별명 <br>
+    <input type="text"class="테두리"> <br>
+    생년월일 <br>
+    <input type="date"class="테두리"> <br>
+    <p class="성별">
+      <label>여자 <input type="radio" name="radioname"></label>
+      <label>남자 <input type="radio" name="radioname"></label><br>
+    </>
+
+    <p><input type="submit"></p>
+  </form>
+
+</body>
+</html>
