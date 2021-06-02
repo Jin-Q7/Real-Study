@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+ <style>
+   div {
+     font-weight: bold;
+     padding: 15px 15px 15px 15px;
+     width: 100%;
+     color: #004085;
+     background-color: #cce5ff;
+     border-color: #b8daff;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+   }
+ </style>
+
+<body>
+  <div>
+          A simple primary alert-check it out!
+  </div>
+</body>
+</html>
