@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+      a:link { color: blank;}
+      a:visited {color: blue;}
+      a:hover {background-color: aqua}
+      a:active {color: gold;}
+      .button:focus {
+          background: yellow;
+          color: red;
+      }
+       div.width {
+           background-color: orange;
+           height: 50px;
+           width: 100px;
+           margin: 10px;
+           -webkit-transition: width 1s;
+           transition: width 1s;
+       }
+       div.width:hover {width: 300px;}
+       /*왜 .width 안하고 div.width 한거에용?*/
+  </style>
+</head>
+<body>
+<a href="https://www.ralphlauren.co.kr/ko" target="_blank"> 한번 방문한 적 있는 링크입니다</a>
+<!--<a href="http://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=676" target="_blank"> 평범한 링크입니다</a>-->
+<a href="https://event.etoos.com" target="_blank"> 노방문</a>
+<!--=> 방문한적없는 링크인데 색이 방문한링크 (visited)랑 똑같이 떠요ㅠ-->
+
+<input class="button" value="나는 버튼이다"><br>
+<h1>요소의 너비 변화</h1>
+<div class="width"><div/>
+        <div class="width"></div> 왜 오류뜨지ㅠ
+
+        <p> 아 아아아ㅏ아아아아아아아아아악 왜이랭<p/>
+
+
+</body>
+</html>

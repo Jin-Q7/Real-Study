@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .dropdown-button{
+      background-color: white;
+      padding: 8px;
+      font-size: 15px;
+      border: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+        background-color: lightgray;
+        min-width: 160px;
+        padding: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content{ display: block}
+  </style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="dropdown-button">DAIRY</button>
+  <div class="dropdown-content">
+    <a href="#"> 2021 </a>
+    <a href="#"> 2020 </a>
+    <a href="#"> 2019 </a>
+  </div>
+</div>
+
+</body>
+</html>

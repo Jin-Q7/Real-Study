@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        font {
+            color: white;
+        }
+        body {
+            color: white;
+            margin: 0px;
+            background-color: black;
+        }
+        .sel {
+        display: flex;
+        }
+        header {
+            position: fixed;
+            /*위에거쓰면서갑자기상단바가가로로좁아졌어요ㅠ*/
+            align-items: center;
+            display: flex;
+            background-color: orange;
+            height: 100px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 56px;
+
+            color: #FFFFFF;
+        }
+        header div {
+            font-size: 25px;
+            color: white;
+            margin-left: 50px;
+        }
+        nav {
+            margin-left: auto;
+            margin-right: 80px;
+            align-items: center;
+        }
+        nav div {
+            color: white;
+            font-size: 15px;
+            align-items: center;
+        }
+        .diary {
+            font-weight: bolder;
+            font-size: 17px;
+        }
+        td {
+            padding: 15px;
+        }
+        section {
+            padding-top: 100px;
+            align-content
+            margin-top: 20px;
+            /*margin-top 이 안 먹어요,,,*/
+            margin-left: 30px;
+            font-size: 15px;
+            color: white;
+        }
+        .selca {
+            height: 500px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .첫줄글 {
+            margin-top: 2px;
+            margin-left: 10px;
+        }
+        .두번째글 {
+            margin-top: 2px;
+            margin-left: 30px;
+        }
+        .nail {
+            margin-top: 20px;
+            margin-right: 500px;
+            clear: left;
+            float: right;
+            height: 500px;
+            width: auto;
+        }
+    footer {
+        /* footer 하단에 놔두는 법좀 알려주세요.. 마진으로 맞추는게 아닐거같은데 */
+        height: 50px;
+        margin-top: 500px;
+        position: absolute;
+        text-align: left;
+        margin-left: auto;
+        font-size: 10px;
+    }
+    article {
+        margin-top: 10px;
+    }
+    .friends {
+        position: relative;
+        display: inline-block;
+    }
+        </style>
+</head>
+<body>
+    <header>
+        <Div>JINNY QIN</Div>
+        <nav>
+            <table>
+                <td>ABOUT ME</td>
+                <td>I</td>
+                <td class="diary">DIARY</td>
+                <td>I</td>
+                <td>HIGHLIGHT</td>
+                <td>I</td>
+                <td>FRIENDS</td>
+                <td>I</td>
+                <td>Q&A</td>
+            </table>
+        </nav>
+    </header>
+
+    <section>
+        <p> 2021 / 06 / 29 </p>
+        <p> 네일 한 날~~~ </p>
+        <div class="sel">
+        <img class="selca" src="image/E1ED4B8B-60C1-4563-8078-4025CCA7BBB1_1_105_c.jpeg" height="1182" width="665"/>
+           <p class="첫줄글"> 가은이 만나서 네일 했당 </p>
+        </div>
+    </section>
+    <article>
+        <img class="nail" src="image/CCB94B7F-F537-45BF-90E8-3C46E5863BF9_1_105_c.jpeg" height="1024" width="767"/>
+        <p class="두번째글"> 가은이는 짱구 잠옷 컨셉 나는 바다 컨셉!</p>
+<!--        이거는두번째섹션에 들어와있는 텍스트인데 왜 위에 붙죠?ㅠㅠㅠㅠ-->
+   </article>
+
+    <footer>
+        <table>
+        <td>김현진</td>
+        <td>010-6422-5468</td>
+        <td>서울시 송파구 올림픽로99</td>
+        </table>
+    </footer>
+
+</body>
+        </html>
